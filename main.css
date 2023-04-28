@@ -1,0 +1,185 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: #f8faf5;
+}
+
+header .navbar {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h5 {
+  color: #c24d2c;
+}
+
+h2 {
+  color: #3e4a61;
+}
+
+.bannerText h1 {
+  font-weight: 600;
+  font-size: 64px;
+  text-align: center;
+}
+.bannerText h2 {
+  text-align: center;
+}
+
+section .backGround {
+  width: 100%;
+  height: 250px;
+  margin: 0px 0px;
+  background: url(assets/kite-banner-eilis-garvey-3Ta496mG1l0-unsplash.jpg);
+  background-color: #d9dad7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  position: relative;
+}
+
+.bannerText {
+  width: 100%;
+  height: auto;
+  background-color: #d9dad7;
+  position: relative;
+
+  padding-left: 55px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+/*fix this */
+.bannerText P {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 50px;
+  margin-left: 160px;
+  width: 80%;
+}
+
+div .row {
+  background-color: white;
+}
+#main {
+  background-color: #d9dad7;
+}
+#main h2 {
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.23);
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.card-title {
+  color: #c24d2c;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  box-shadow: 15px 10px 32px -9px rgba(0, 0, 0, 0.23);
+}
+
+footer {
+  margin: 20px 25px;
+}
+
+.copyRight {
+  font-size: 14px;
+  padding: 0px 50px 0px 50px;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+.copyRight a {
+  text-decoration: none;
+}
+.socialIcons {
+  width: 200px;
+  float: left;
+  background-color: #f8faf5;
+  line-height: 1.5em;
+  padding: 5px;
+  margin-top: -0.25em;
+  margin-bottom: 0.75em;
+  position: relative;
+  font-weight: 600;
+  color: #c24d2c;
+}
+
+.socialIcons p {
+  text-align: center;
+}
+
+.socialIcons ul li {
+  padding-left: 10px;
+  float: left;
+  list-style: none;
+}
+
+.socialIcons a {
+  text-align: center;
+  cursor: pointer;
+}
+
+.socialIcons a:hover {
+  opacity: 0.75;
+}
+
+li a img {
+  width: 30px;
+  height: 30px;
+  margin-left: 14px;
+  margin-bottom: 10px;
+}
+.form-control {
+  max-width: 30%;
+}
+
+.navbar-brand {
+  background-color: #3e4a61;
+  color: #d9dad7;
+  font-size: 24px;
+  border-radius: 15px;
+  padding: 12px;
+}
+.navbar-brand:hover {
+  color: #3e4a61;
+  background-color: #d9dad7;
+  opacity: 0.75;
+}
+
+.nav-link {
+  border-radius: 15px;
+}
+.nav-link:hover {
+  color: #3e4a61;
+  background-color: #d9dad7;
+  opacity: 0.75;
+}
+
+.btn {
+  border-radius: 15px;
+  background-color: #1a2639;
+  color: #d9dad7;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.75;
+
+  color: #1a2639;
+  background-color: #d9dad7;
+}
